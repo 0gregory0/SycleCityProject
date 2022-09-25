@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,12 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
 </head>
 <body>
-
-    {% block content %}
     
 <header class="header">
 
@@ -65,7 +64,7 @@
 
     <h3 data-speed="-2" class="home-parallax">rent a bike</h3>
 
-    <img data-speed="5" class="home-parallax" src="bike001.jpg" alt="">
+    <img data-speed="5" class="home-parallax" src="{% static 'images/bike001.jpg' %}" alt="">
 
     <a data-speed="7" href="#" class="btn home-parallax">explore bikes</a>
 
@@ -116,7 +115,7 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide box">
-                <img src="bike1.jpg" alt="">
+                <img src="{% static 'images/bike1.jpg' %}" alt="">
                 <div class="content">
                     <h3>Tyrese</h3>
                     <div class="price"> <span>price : </span> $50/hr </div>
@@ -130,7 +129,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="bike2.jpg" alt="">
+                <img src="{% static 'images/bike2.jpg' %}" alt="">
                 <div class="content">
                     <h3>Jango</h3>
                     <div class="price"> <span>price : </span> $35/hr </div>
@@ -144,7 +143,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="bike3.jpg" alt="">
+                <img src="{% static 'images/bike3.jpg' %}" alt="">
                 <div class="content">
                     <h3>Tall</h3>
                     <div class="price"> <span>price : </span> $25/hr </div>
@@ -158,7 +157,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="bike4.jpg" alt="">
+                <img src="{% static 'images/bike4.jpg' %}" alt="">
                 <div class="content">
                     <h3>Wes</h3>
                     <div class="price"> <span>price : </span> $20/- </div>
@@ -172,7 +171,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="bike5.jpg" alt="">
+                <img src="{% static 'images/bike5.jpg' %}" alt="">
                 <div class="content">
                     <h3>Molly</h3>
                     <div class="price"> <span>price : </span> $15 </div>
@@ -186,7 +185,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="bike6.jpg" alt="">
+                <img src="{% static 'images/bike6.jpg' %}" alt="">
                 <div class="content">
                     <h3>Tim</h3>
                     <div class="price"> <span>price : </span> $15 </div>
@@ -247,7 +246,7 @@
        <div class="swiper-wrapper">
 
             <div class="swiper-slide box">
-                <img src="bike1.jpg" alt="">
+                <img src="{% static 'images/bike1.jpg' %}" alt="">
                 <div class="content">
                     <h3>Suzie</h3>
                     <div class="stars">
@@ -263,7 +262,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="bike2.jpg" alt="">
+                <img src="{% static 'images/bike2.jpg' %}" alt="">
                 <div class="content">
                     <h3>Merc</h3>
                     <div class="stars">
@@ -279,7 +278,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="bike3.jpg" alt="">
+                <img src="{% static 'images/bike3.jpg' %}" alt="">
                 <div class="content">
                     <h3>Tes</h3>
                     <div class="stars">
@@ -295,7 +294,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="bike4.jpg" alt="">
+                <img src="{% static 'images/bike4.jpg' %}" alt="">
                 <div class="content">
                     <h3>Jas</h3>
                     <div class="stars">
@@ -339,7 +338,7 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide box">
-                <img src="Muchai.jpg" alt="">
+                <img src="{% static 'images/Muchai.jpg' %}" alt="">
                 <div class="content">
                     <p>What's outstanding about syclecity, is their customer service.</p>
                     <h3>Muchai</h3>
@@ -354,7 +353,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="nelly.jpg" alt="">
+                <img src="{% static 'images/nelly.jpg' %}" alt="">
                 <div class="content">
                     <p>I love that i can get a bike at a click of a button.</p>
                     <h3>Nelly Alili</h3>
@@ -369,7 +368,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="greg.jpg" alt="">
+                <img src="{% static 'images/greg.jpg' %}" alt="">
                 <div class="content">
                     <p>The electric bike made me feel like I am on a plane. I was flying!</p>
                     <h3>Greg Opondi</h3>
@@ -384,7 +383,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="sandra.jpg" alt="">
+                <img src="{% static 'images/sandra.jpg' %}" alt="">
                 <div class="content">
                     <p> The electic bike was so cool, I could control it via an app on my phone.</p>
                     <h3>Sandra Mamai</h3>
@@ -399,7 +398,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="kim.jpg" alt="">
+                <img src="{% static 'images/kim.jpg' %}" alt="">
                 <div class="content">
                     <p>very effecient and affordable.</p>
                     <h3>Andrew Kim</h3>
@@ -414,7 +413,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="cindy.jpg" alt="">
+                <img src="{% static 'images/cindy.jpg' %}" alt="">
                 <div class="content">
                     <p>I love how the rails are secured! other bikes tear my clothes while cycling, but these ones dont.</p>
                     <h3>Cindy Ngugi</h3>
@@ -429,7 +428,7 @@
             </div>
 
             <div class="swiper-slide box">
-                <img src="dennis.jpg" alt="">
+                <img src="{% static 'images/dennis.jpg' %}" alt="">
                 <div class="content">
                     <p>I use syclecity bikes to go to my cybersecurity meetings</p>
                     <h3>Dennis Kiarie</h3>
@@ -518,19 +517,9 @@
 </section>
 
 
-
-
-
-
-
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-<script src="script.js"></script>
-
-    {% endblock content %}
+<script src="{% static 'javascript/script.js' %}"></script>
 
 </body>
 </html>
