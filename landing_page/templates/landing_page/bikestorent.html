@@ -1,0 +1,132 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Bikes To Rent</title>
+	<link rel = "stylesheet" href = "{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/rent.css' %}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+	<section class="bikestorent" id="bikestorent">
+
+    <h1 class="heading"> Available <span>Bikes</span> To Rent </h1>
+    <h2>Call us at 0115501903, to rent the available bikes</h2>
+
+    <div class="swiper bikestorent-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img class="round-corner" src="{% static 'images/bike8.jpg' %}" alt="">
+                <div class="content">
+                    <h3>Merc</h3>
+                    <div class="price">$35/hr-</div>
+                    <a href="#contact" class="btn">rent</a>
+                </div>
+            </div>
+
+            <br>    
+
+                    <div class="swiper-slide box">
+                <img class="round-corner" src="{% static 'images/bike13.jpg' %}" alt="">
+                <div class="content">
+                    <h3>Job</h3>
+                    <div class="price">$45/hr-</div>
+                    <a href="#contact" class="btn">rent</a>
+                </div>
+            </div>
+
+            <br>
+
+                    <div class="swiper-slide box">
+                <img class="round-corner" src="{% static 'images/bike10.jpg' %}" alt="">
+                <div class="content">
+                    <h3>Merc</h3>
+                    <div class="price">$55/hr-</div>
+                    <a href="#contact" class="btn">rent</a>
+                </div>
+            </div>
+
+            <br>
+
+                <div class="swiper-slide box">
+                <img class="round-corner" src="{% static 'images/bike11.jpg' %}" alt="">
+                <div class="content">
+                    <h3>Pol</h3>
+                    <div class="price">$50/hr-</div>
+                    <a href="#contact" class="btn">rent</a>
+                </div>
+            </div>
+
+            <br>
+
+                <div class="swiper-slide box">
+                <img class="round-corner" src="{% static 'images/bike12.jpg' %}" alt="">
+                <div class="content">
+                    <h3>Tom</h3>
+                    <div class="price">$65/hr-</div>
+                    <a href="#contact" class="btn">rent</a>
+                </div>
+            </div>
+
+             </div>
+        </div>
+    </div>
+
+    <section class="footer" id="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>our branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Nairobi</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Kisumu</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Mombasa</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Nakuru</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Busia</a>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> bikes </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> 0115501903</a>
+                <a href="#"> <i class="fas fa-phone"></i> +254707821377</a>
+                <a href="#"> <i class="fas fa-envelope"></i> syclecity@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Nairobi, Kenya - 00100</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            </div>
+    
+        </div>
+    
+        <div class="credit"> created by PLP students | all rights reserved </div>
+    
+    </section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="{% static 'javascript/script.js' %}"></script>
+
+</body>
+</html>
