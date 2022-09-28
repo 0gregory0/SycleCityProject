@@ -107,6 +107,25 @@ section{
     color:lightgrey;
 }
 
+#login-button {
+    background-color: yellow;
+    color: white;
+    width: fit-content;
+    float: right;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#login-button  a {
+    text-decoration: underline;
+    color: black;
+    background-color: yellow;
+    margin: 1.5rem;
+}
+
+
 .header.active{
     padding:2rem 9%;
     box-shadow: var(--box-shadow);
@@ -606,9 +625,6 @@ section{
     font-size: 2rem;
     color:black;
 }
-
-
-
 
 
 

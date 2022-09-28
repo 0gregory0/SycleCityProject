@@ -33,9 +33,13 @@
         <a href="#contact">contact</a>
     </nav>
 
+    
+
     <div id="login-btn">
-        <button class="btn">login</button>
-        <i class="far fa-user"></i>
+        <p id="login-button">
+            <a id="li-b" href="{% url 'login' %}">Log in</a> | 
+            <a href="{% url 'signup' %}">Sign Up</a>
+        </p>
     </div>
 
 </header> 

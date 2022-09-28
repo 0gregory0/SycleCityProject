@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "landing_page.apps.LandingPageConfig",
+    "landing_page.apps.LandingPageConfig", # newlanding page app
+    "accounts.apps.AccountsConfig", # new sign up app
 ]
 
 MIDDLEWARE = [
@@ -118,3 +119,6 @@ STATICFILES_DIRS = [BASE_DIR / "static"] #TELLS DJANGO TO LOOK WITHIN THE STATIC
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+LOGIN_REDIRECT_URL = "Bike Renting Page"
+LOGOUT_REDIRECT_URL = "Landing Page"
