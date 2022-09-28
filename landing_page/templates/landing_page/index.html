@@ -128,7 +128,7 @@
                         <span class="fas fa-circle"></span> 2022
                         <span class="fas fa-circle"></span> electric
                   </p>
-                    <a href="#" class="btn">check out</a>
+                    <a href="{% url 'login' %}" class="btn">check out</a>
                 </div>
             </div>
 
@@ -142,7 +142,7 @@
                         <span class="fas fa-circle"></span> 2022
                         <span class="fas fa-circle"></span> starter
                     </p>
-                    <a href="#" class="btn">check out</a>
+                    <a href="{% url 'login' %}" class="btn">check out</a>
                 </div>
             </div>
 
@@ -156,7 +156,7 @@
                         <span class="fas fa-circle"></span> 2021
                         <span class="fas fa-circle"></span> mountain bike
                     </p>
-                    <a href="#" class="btn">check out</a>
+                    <a href="{% url 'login' %}" class="btn">check out</a>
                 </div>
             </div>
 
@@ -170,7 +170,7 @@
                         <span class="fas fa-circle"></span> 2021
                         <span class="fas fa-circle"></span> road bike
                         </p>
-                    <a href="#" class="btn">check out</a>
+                    <a href="{% url 'login' %}" class="btn">check out</a>
                 </div>
             </div>
 
@@ -184,7 +184,7 @@
                         <span class="fas fa-circle"></span> 2021
                         <span class="fas fa-circle"></span> touring bike
                         </p>
-                    <a href="#" class="btn">check out</a>
+                    <a href="{% url 'login' %}" class="btn">check out</a>
                 </div>
             </div>
 
@@ -198,7 +198,7 @@
                         <span class="fas fa-circle"></span> 2021
                         <span class="fas fa-circle"></span> cruiser
                     </p>
-                    <a href="#" class="btn">check out</a>
+                    <a href="{% url 'login' %}" class="btn">check out</a>
                 </div>
             </div>
 
@@ -220,21 +220,21 @@
             <i class="fas fa-bicycle"></i>
             <h3>bike Rental</h3>
             <p>We rent quality bikes at a small fee</p>
-            <a href="#" class="btn"> read more</a>
+            <!-- <a href="#" class="btn"> read more</a> -->
         </div>
 
         <div class="box">
             <i class="fas fa-bicycle"></i>
-            <h3>bike for sale</h3>
+            <h3>bikes for sale</h3>
             <p>We sell long-lasting bikes!</p>
-            <a href="#" class="btn"> read more</a>
+            <!-- <a href="#" class="btn"> read more</a> -->
         </div>
 
         <div class="box">
             <i class="fas fa-headset"></i>
             <h3>24/7 support</h3>
             <p>We are available all day, everyday.</p>
-            <a href="#" class="btn"> read more</a>
+            <!-- <a href="#" class="btn"> read more</a> -->
         </div>
 
     </div>
@@ -261,7 +261,7 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                     <div class="price">$500/-</div>
-                    <a href="#" class="btn">check out</a>
+                    <a href="{% url 'login' %}" class="btn">check out</a>
                 </div>
             </div>
 
@@ -277,7 +277,7 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                     <div class="price">$650/-</div>
-                    <a href="#" class="btn">check out</a>
+                    <a href="{% url 'login' %}" class="btn">check out</a>
                 </div>
             </div>
 
@@ -293,7 +293,7 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                     <div class="price">$800/-</div>
-                    <a href="#" class="btn">check out</a>
+                    <a href="{% url 'login' %}" class="btn">check out</a>
                 </div>
             </div>
 
@@ -309,7 +309,7 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                     <div class="price">$1000/-</div>
-                    <a href="#" class="btn">check out</a>
+                    <a href="{% url 'login' %}" class="btn">check out</a>
                 </div>
             </div>
 
@@ -328,7 +328,7 @@
 
    <form action="">
         <input type="email" placeholder="enter your email">
-        <input type="submit" value="subscribe">
+        <input type="submit" value="subscribe" id="submit-button">
    </form>
 
 </section>
@@ -480,29 +480,29 @@
 
         <div class="box">
             <h3>our branches</h3>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Nairobi</a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Kisumu</a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Mombasa</a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Nakuru</a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Busia</a>
+            <a href="#contact"> <i class="fas fa-map-marker-alt"></i> Nairobi</a>
+            <a href="#contact"> <i class="fas fa-map-marker-alt"></i> Kisumu</a>
+            <a href="#contact"> <i class="fas fa-map-marker-alt"></i> Mombasa</a>
+            <a href="#contact"> <i class="fas fa-map-marker-alt"></i> Nakuru</a>
+            <a href="#contact"> <i class="fas fa-map-marker-alt"></i> Busia</a>
         </div>
 
         <div class="box">
             <h3>quick links</h3>
             <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> bikes </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            <a href="#bikes"> <i class="fas fa-arrow-right"></i> bikes </a>
+            <a href="#services"> <i class="fas fa-arrow-right"></i> services </a>
+            <a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#reviews"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#contact"> <i class="fas fa-arrow-right"></i> contact </a>
         </div>
 
         <div class="box">
             <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> 0115501903</a>
-            <a href="#"> <i class="fas fa-phone"></i> +254707821377</a>
-            <a href="#"> <i class="fas fa-envelope"></i> syclecity@gmail.com </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> Nairobi, Kenya - 00100</a>
+            <a href="tel:0115501903"> <i class="fas fa-phone"></i> 0115501903</a>
+            <a href="tel:+254707821377"> <i class="fas fa-phone"></i> +254707821377</a>
+            <a href="mailto:syclecity@gmail.com"> <i class="fas fa-envelope"></i> syclecity@gmail.com </a>
+            <a href="#contact"> <i class="fas fa-map-marker-alt"></i> Nairobi, Kenya - 00100</a>
         </div>
 
         <div class="box">
