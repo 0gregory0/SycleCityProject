@@ -1,7 +1,5 @@
-from django.conf import settings
 from django.urls import path
 from .views import BikeRentingPage, LandingPage
-from django.views import static
 
 #Giving the landing page view a URL
 urlpatterns = [
