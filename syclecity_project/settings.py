@@ -114,7 +114,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = "/static/"
-STATICFILES_DIRS = [BASE_DIR / "static"] #TELLS DJANGO TO LOOK WITHIN THE STATIC FOLDER
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")] #TELLS DJANGO TO LOOK WITHIN THE STATIC FOLDER
 
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
