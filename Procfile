@@ -1,0 +1,1 @@
+web: gunicorn syclecity_project.wsgi --log-file -
