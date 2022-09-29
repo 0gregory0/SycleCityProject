@@ -26,7 +26,7 @@ SECRET_KEY = config("SECRET_KEY") #NOT REAL SECRET KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["django-server-production-90a3.up.railway.app"]
+ALLOWED_HOSTS = ["syclecityproject-production.up.railway.app"]
 
 
 # Application definition
