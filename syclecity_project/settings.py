@@ -126,3 +126,5 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 LOGIN_REDIRECT_URL = "Bike Renting Page"
 LOGOUT_REDIRECT_URL = "Landing Page"
+
+CSRF_TRUSTED_ORIGINS = ["syclecityproject-production.up.railway.app"]
