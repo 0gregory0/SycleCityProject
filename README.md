@@ -109,7 +109,7 @@ The project was developed in the following environment:
   * whitenoise==6.2.0
   
 #### <a name="hosting-platform"></a>Hosting Platform
-SycleCity is being hosted on a platform called **Railway**. [Interact with our web app here]() and feel free to create an account, don't be shy.
+SycleCity is being hosted on a platform called **Railway**. [Interact with our web app here](https://syclecityproject-production.up.railway.app/) and feel free to create an account, don't be shy.
 
 ### <a name="how-to-contribute"></a>How to contribute
 The first step to contributing is to have a similar coding environment. It is not a must to have the same OS or IDE, but it is a must for the programmer
