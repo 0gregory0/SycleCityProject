@@ -93,7 +93,7 @@ because Django is a batteries included and therefore comes with necessary functi
 #### Database System
 We used Django's default **Sqlit3** to implement our database and store user's data
 
-#### Coding Environment
+#### <a name="coding-environment"></a>Coding Environment
 The project was developed in the following environment:
 * OS (Operating System): Windows 11
 * IDE (Integrated Development Environment): VS Code
@@ -113,7 +113,7 @@ SycleCity is being hosted on a platform called **Railway**. [Interact with our w
 
 ### <a name="how-to-contribute"></a>How to contribute
 The first step to contributing is to have a similar coding environment. It is not a must to have the same OS or IDE, but it is a must for the programmer
-to have a virtual environment with all the necessarry modules mentioned [here](). To contribute to this project, follow these steps:
+to have a virtual environment with all the necessarry modules mentioned [here](#coding-environment). To contribute to this project, follow these steps:
 * Clone this repository into your local machine
 * Create and activate a virtual environment within the directory
 * Use pip to install any missing modules
