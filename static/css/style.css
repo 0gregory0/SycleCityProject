@@ -392,6 +392,10 @@ section{
     background: black;
 }
 
+.services .box-container .box:hover i{
+    background: yellow;
+}
+
 .services .box-container .box:hover h3{
     color:white;
 }
