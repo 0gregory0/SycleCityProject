@@ -6,6 +6,14 @@ menu.onclick = () => {
   navbar.classList.toggle("active");
 };
 
+document.getElementById("send-message").onclick = function () {
+  alert("Your response has been recorded");
+}
+
+document.getElementById("subscribe").onclick = function () {
+  alert("Successfully added to mailing list");
+}
+
 // document.querySelector('#login-btn').onclick = () =>{
 //   document.querySelector('.login-form-container').classList.toggle('active');
 // }
