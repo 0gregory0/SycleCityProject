@@ -133,5 +133,5 @@ LOGOUT_REDIRECT_URL = "Landing Page"
 
 CSRF_TRUSTED_ORIGINS = [
     "https://syclecityproject-production.up.railway.app", 
-    "https://sycle-city.azurewebsites.net"
+    "https://sycle-city.azurewebsites.net",
     ]
