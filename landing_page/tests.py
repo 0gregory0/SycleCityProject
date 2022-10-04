@@ -17,7 +17,7 @@ class LandingPage(TestCase): #Tests for the landing page
     #testing whether the correct template is being returned
     def test_url_template(self):
         response = self.client.get(reverse("Landing Page"))
-        self.assertTemplateUsed(response, "landing_page\index.html")
+        self.assertTemplateUsed(response, "landing_page/index.html")
 
     #testing whether our template has a specific content
     def test_template_content(self):
@@ -40,7 +40,7 @@ class BikeRentingPage(TestCase):
     #testing whether the correct template is being returned
     def test_url_template(self):
         response = self.client.get(reverse("Bike Renting Page"))
-        self.assertTemplateUsed(response, r"landing_page\bikestorent.html")
+        self.assertTemplateUsed(response, "landing_page/bikestorent.html")
 
     #testing whether our template has a specific content
     def test_template_content(self):
