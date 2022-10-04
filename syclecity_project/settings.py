@@ -27,7 +27,11 @@ SECRET_KEY = config("SECRET_KEY") #NOT REAL SECRET KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["syclecityproject-production.up.railway.app", "127.0.0.1"]
+ALLOWED_HOSTS = [
+    "syclecityproject-production.up.railway.app", 
+    "127.0.0.1", 
+    "sycle-city.azurewebsites.net"
+    ]
 
 
 # Application definition
@@ -127,4 +131,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 LOGIN_REDIRECT_URL = "Bike Renting Page"
 LOGOUT_REDIRECT_URL = "Landing Page"
 
-CSRF_TRUSTED_ORIGINS = ["https://syclecityproject-production.up.railway.app"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://syclecityproject-production.up.railway.app", 
+    "https://sycle-city.azurewebsites.net"
+    ]
