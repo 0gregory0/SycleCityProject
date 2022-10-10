@@ -89,7 +89,7 @@ project is live and is hosted [here](#hosting-platform).
 #### Frameworks used
 **Front-end Frameworks**\
 **Bootstrap** was used to style the default Log in and Sign up forms provided by Django\
-**SwiperJS** was used to create beautiful sliding carousels on the landing page
+**Swiper Studio** was used to create beautiful sliding carousels on the landing page
 
 **Back-end Frameworks:**\
 Python's **Django** was used for the back end of our web app. We chose Python over PHP because of it's easy syntax. We chose Django over Flask and Fast API simply
