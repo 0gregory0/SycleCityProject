@@ -87,11 +87,16 @@ project is live and is hosted [here](#hosting-platform).
 **Python:** To implement the back end of our web app
 
 #### Frameworks used
+**Front-end Frameworks**\
+**Bootstrap** was used to style the default Log in and Sign up forms provided by Django\
+**Swiper Studio** was used to create beautiful sliding carousels on the landing page
+
+**Back-end Frameworks:**\
 Python's **Django** was used for the back end of our web app. We chose Python over PHP because of it's easy syntax. We chose Django over Flask and Fast API simply
 because Django is a batteries included and therefore comes with necessary functionalities such as user authentication and authorization straight out of the box.
 
 #### Database System
-We used Django's default **Sqlit3** to implement our database and store user's data
+We used Django's default **Sqlit3** to implement our database models and store user's data.
 
 #### <a name="coding-environment"></a>Coding Environment
 The project was developed in the following environment:
