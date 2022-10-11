@@ -1,0 +1,12 @@
+body {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.btn {
+    background-color: yellow;
+}
+
+.btn:hover {
+    background-color: rgb(250, 250, 88);
+}

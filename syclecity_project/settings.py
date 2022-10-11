@@ -42,10 +42,16 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    "whitenoise.runserver_nostatic", #installing whitenoise
     "django.contrib.staticfiles",
+
+    #local apps
     "landing_page.apps.LandingPageConfig", # newlanding page app
     "accounts.apps.AccountsConfig", # new sign up app
+
+    #3rd party apps
+    "whitenoise.runserver_nostatic", #for serving static files
+    "crispy_forms", #for styling the log in and sign up forms
+    "crispy_bootstrap5", #for styling the log in and sign up forms
 ]
 
 MIDDLEWARE = [
@@ -135,3 +141,6 @@ CSRF_TRUSTED_ORIGINS = [
     "https://syclecityproject-production.up.railway.app", 
     "https://sycle-city.azurewebsites.net",
     ]
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5" 
+CRISPY_TEMPLATE_PACK = "bootstrap5" 
