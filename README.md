@@ -105,7 +105,9 @@ The project was developed in the following environment:
 * Virtual Environment: pip's virtualenv (.venv)
 * Python Modules:
   * asgiref==3.5.2
+  * crispy-bootstrap5==0.7
   * Django==4.1.1
+  * django-crispy-forms==1.14.0
   * gunicorn==20.1.0
   * Pillow==9.2.0
   * python-decouple==3.6
