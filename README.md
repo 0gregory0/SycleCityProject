@@ -1,7 +1,7 @@
 # PLP Group 22 presents:
 ![SycleCity](https://user-images.githubusercontent.com/91679905/193264312-f0e7c667-eecb-45c2-9fbd-5386e38315ea.png)
 ## Group 22 Members:
-1. **[GREGORY OCHIENG OPONDI](mailto:ds4gregory@gmail.com)**
+1. **[GREGORY OCHIENG OPONDI](https://linktr.ee/o.gregory.o)**
   - Project Manager
   - Back end Lead developer
   
